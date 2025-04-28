@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestor de Productos</title>
+  <link rel="stylesheet" href="./styles/index.css">
+  <script src="./js/index.js" defer></script>
+</head>
+<body>
+
+  <div class="main-container">
+    <h1>Gestor de Productos</h1>
+
+    <div class="form-container">
+      <input type="text" class="productoInput" id="Nombre" placeholder="Nombre del producto">
+      <input type="text" class="productoInput" id="Categoria" placeholder="Categoría">
+      <input type="text" class="productoInput" id="Precio" placeholder="Precio">
+      <div class="buttons-container">
+        <button class="btn agregar-btn" onclick="agregarProducto()">Agregar Producto</button>
+        <button class="btn mostrar-btn" onclick="listarProductos()">Mostrar Productos</button>
+      </div>
+    </div>
+
+    <div class="search-container">
+      <input type="text" id="buscarInput" class="productoInput" placeholder="Buscar producto...">
+      <button class="btn buscar-btn" onclick="buscarProducto()">Buscar</button>
+    </div>
+
+    <div class="drop-container">
+      <select name="" id="drop" class="dropdown"></select>
+      <button class="btn eliminar-btn" onclick="eliminarProducto()">Eliminar</button>
+    </div>
+
+    <ul id="listaProductos" class="productos-list"></ul>
+  </div>
+
+</body>
+</html>
