@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TiendaThomas - Ecommerce JS</title>
+  <link rel="stylesheet" href="./styles/index.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+  
+</head>
+<body>
+  <header>
+    <h1>TiendaThomas</h1>
+    <input type="text" id="buscarInput" placeholder="Buscar producto..." />
+  </header>
+
+  <main>
+    <section>
+      <h2>Agregar / Editar Producto</h2>
+      <form id="formProducto">
+        <input type="hidden" id="productoId" />
+        <input type="text" id="nombreProducto" placeholder="Nombre del producto" required />
+        <select id="categoriaProducto" required>
+          <option value="" disabled selected>Categoría</option>
+          <option value="CALZADO">CALZADO</option>
+          <option value="SUPERIOR">SUPERIOR</option>
+          <option value="INFERIOR">INFERIOR</option>
+        </select>
+        <input type="number" id="precioProducto" placeholder="Precio" min="0" required />
+        <input type="number" id="unidadesProducto" placeholder="Unidades" min="1" required />
+        <button type="submit" id="btnAgregarEditar">Agregar Producto</button>
+        <button type="button" id="btnCancelarEdicion" hidden>Cancelar Edición</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Filtrar por categoría</h2>
+      <button onclick="filtrarCategoria('CALZADO')">CALZADO</button>
+      <button onclick="filtrarCategoria('SUPERIOR')">SUPERIOR</button>
+      <button onclick="filtrarCategoria('INFERIOR')">INFERIOR</button>
+    </section>
+
+    <section>
+      <h2>Productos</h2>
+      <ul id="listaProductos"></ul>
+    </section>
+
+    <section>
+      <h2>Carrito</h2>
+      <div id="carrito"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 TiendaThomas</p>
+  </footer>
+  <script src="./js/index.js" defer></script>
+</body>
+</html>

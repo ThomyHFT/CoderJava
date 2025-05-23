@@ -1,0 +1,13 @@
+[
+    { "id": "a1b2c3d4-e5f6-7a8b-9c0d-e1f2a3b4c5d6", "nombre": "ZAPATILLAS", "categoria": "CALZADO", "precio": 39990, "stock": 10 },
+    { "id": "b2c3d4e5-f6a7-8b9c-0de1-f2a3b4c5d6e7", "nombre": "POLERA", "categoria": "SUPERIOR", "precio": 14990, "stock": 20 },
+    { "id": "c3d4e5f6-a7b8-9c0d-e1f2-a3b4c5d6e7f8", "nombre": "PANTALÓN", "categoria": "INFERIOR", "precio": 29990, "stock": 15 },
+    { "id": "d4e5f6a7-b8c9-0de1-f2a3-b4c5d6e7f809", "nombre": "BOTAS", "categoria": "CALZADO", "precio": 49990, "stock": 5 },
+    { "id": "e5f6a7b8-c9d0-e1f2-a3b4-c5d6e7f8091a", "nombre": "CHAQUETA", "categoria": "SUPERIOR", "precio": 79990, "stock": 8 },
+    { "id": "f6a7b8c9-d0e1-f2a3-b4c5-d6e7f8091a2b", "nombre": "SHORT", "categoria": "INFERIOR", "precio": 19990, "stock": 12 },
+    { "id": "a7b8c9d0-e1f2-a3b4-c5d6-e7f8091a2b3c", "nombre": "SANDALIAS", "categoria": "CALZADO", "precio": 25990, "stock": 9 },
+    { "id": "b8c9d0e1-f2a3-b4c5-d6e7-f8091a2b3c4d", "nombre": "CAMISA", "categoria": "SUPERIOR", "precio": 17990, "stock": 14 },
+    { "id": "c9d0e1f2-a3b4-c5d6-e7f8-091a2b3c4d5e", "nombre": "JEANS", "categoria": "INFERIOR", "precio": 32990, "stock": 7 },
+    { "id": "d0e1f2a3-b4c5-d6e7-f809-1a2b3c4d5e6f", "nombre": "ZAPATOS", "categoria": "CALZADO", "precio": 44990, "stock": 6 }
+  ]
+  
